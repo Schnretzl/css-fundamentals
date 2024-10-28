@@ -1,0 +1,28 @@
+<!-- Task 3: Create a separate HTML file for the recipe submission form. Include form elements such as <form>, <input> fields for recipe name, ingredients, and instructions, and a submit button <button>. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p class="regular-text">Tell us about your favorite cookie recipe:</p>
+    <form action="POST">
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" name="recipe-name" required>
+        <br>
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" rows="4" cols="50" required></textarea>
+        <br>
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="4" cols="50" required></textarea>
+        <br>
+        <input type="submit" id="submit" value="Submit Recipe">
+    </form>
+    <br>
+    <a href="cookies.html">Back to Classic Chocolate Chip Cookies</a>
+</body>
+</html>
