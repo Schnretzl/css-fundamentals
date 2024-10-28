@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(08, 163, 168);
+}
+
+h1 {    
+    color: #6f2727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+h2, p, li, ol, ul{
+    color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, ul {
+    margin: 30px 30px 40px 10px;
+    font-size: 14px;
+}
+
+ol {
+    border: 2px solid #f7f7f7;
+    padding: 30px;
+}
+
+.regular-text {
+    font-size: 1.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#cookie-image {
+    height: 600px;
+}
+
+a:hover {
+    background-color: yellow;
+}
