@@ -1,3 +1,5 @@
+/* 1.  Enhancing CSS Styling of Chocolate Chip Cookie Recipe */
+/* Task 1: Use CSS to style the chocolate chip cookie recipe */
 body {
     background-color: rgb(08, 163, 168);
 }
@@ -34,4 +36,36 @@ ol {
 
 a:hover {
     background-color: yellow;
+}
+
+label {
+    color:#f7f7f7;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#recipe-name {
+    margin-left: 3px;
+}
+
+#ingredients {
+    margin-left: 25px;
+}
+
+#instructions {
+    margin-left: 21px;
+}
+
+#submit {
+    margin-top: 30px;
+}
+
+/* Task 2: Use CSS to style the button with hover effects using pseudo-classes (:hover). Ensure that the button stands out and invites users to click. */
+#submit:hover {
+    cursor: pointer;
+}
+
+form {
+    border: 2px solid #f7f7f7;
+    padding: 10px;
 }
